@@ -369,7 +369,7 @@
 		01972C8FEDA74111BC569E83 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* aprendendo3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aprendendo3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* meuscartoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meuscartoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = aprendendo3/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = aprendendo3/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -677,7 +677,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* aprendendo3.app */,
+				13B07F961A680F5B00A75B9A /* meuscartoes.app */,
 				00E356EE1AD99517003FC87E /* aprendendo3Tests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* aprendendo3-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* aprendendo3-tvOSTests.xctest */,
@@ -757,7 +757,7 @@
 			);
 			name = aprendendo3;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* aprendendo3.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* meuscartoes.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* aprendendo3-tvOS */ = {
@@ -1406,7 +1406,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meuscartoes;
-				PRODUCT_NAME = aprendendo3;
+				PRODUCT_NAME = meuscartoes;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1429,7 +1429,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meuscartoes;
-				PRODUCT_NAME = aprendendo3;
+				PRODUCT_NAME = meuscartoes;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
